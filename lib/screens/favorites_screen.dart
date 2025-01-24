@@ -21,15 +21,21 @@ class FavoritesScreen extends StatelessWidget {
         scrollDirection: Axis.vertical,
         children: [
           for (final book in favoriteBooks)
-            Dismissible(
-              key: ValueKey(book),
-              background: Container(
-                color: Theme.of(context).colorScheme.error,
-              ),
-              onDismissed: (direction) => removeBook(favoriteBooks, book),
-              child: FavoriteGridItem(
-                book: book,
-                selectBook: selectBook,
+            Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 15),
+              child: Dismissible(
+                key: ValueKey(book),
+                background: Container(
+                  decoration: BoxDecoration(
+                    borderRadius: BorderRadius.circular(20),
+                    color: Theme.of(context).colorScheme.error,
+                  ),
+                ),
+                onDismissed: (direction) => removeBook(favoriteBooks, book),
+                child: FavoriteGridItem(
+                  book: book,
+                  selectBook: selectBook,
+                ),
               ),
             )
         ],
