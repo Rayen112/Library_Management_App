@@ -82,7 +82,9 @@ class _BookScreenState extends State<BookScreen> {
                   SizedBox(
                     height: 20,
                   ),
-                  FavoriteWidget(book: widget.book,),
+                  FavoriteWidget(
+                    book: widget.book,
+                  ),
                   SizedBox(
                     height: 20,
                   ),
@@ -153,7 +155,9 @@ class _BookScreenState extends State<BookScreen> {
                                         children: [
                                           for (final bookk in books)
                                             if (widget.book.category ==
-                                                bookk.category) ...[
+                                                    bookk.category &&
+                                                widget.book.bookId !=
+                                                    bookk.bookId) ...[
                                               BookGridItem(
                                                   book: bookk,
                                                   selectBook: (book) {
