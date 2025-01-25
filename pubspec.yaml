@@ -76,6 +76,22 @@ flutter:
     - assets/images/The Diary of a Young Girl.jpg
     - assets/images/The Girl with the Dragon Tattoo.jpg
     - assets/images/The Hobbit.jpg
+    - assets/images/Foundation.jpg
+    - assets/images/The Martian.jpg
+    - assets/images/Snow Crash.jpg
+    - assets/images/The Hound of the Baskervilles.jpg
+    - assets/images/The Silent Patient.jpg
+    - assets/images/Big Little Lies.jpg
+    - assets/images/A Game of Thrones.jpg
+    - assets/images/The Name of the Wind.jpg
+    - assets/images/The Way of Kings.jpg
+    - assets/images/Atomic Habits.jpg
+    - assets/images/The Power of Habit.jpg
+    - assets/images/Think Again.jpg
+    - assets/images/Becoming.jpg
+    - assets/images/The Wright Brothers.jpg
+    - assets/images/Long Walk to Freedom.jpg
+    
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/to/resolution-aware-images

@@ -28,6 +28,42 @@ List<Book> books = [
       totalReads: 1800000,
       parts: 4,
       timeToFinish: '8 hours'),
+  Book(
+      bookId: 'SF003',
+      title: 'Foundation',
+      image: Image.asset('assets/images/Foundation.jpg', height: 500),
+      category: Category.sciencefiction,
+      categoryId: '1',
+      resume:
+          'Foundation by Isaac Asimov is a science fiction classic about the efforts of Hari Seldon, a mathematician, to preserve knowledge and culture during a predicted dark age of galactic decline.',
+      writer: "Isaac Asimov",
+      totalReads: 2000000,
+      parts: 7,
+      timeToFinish: '12 hours'),
+  Book(
+      bookId: 'SF004',
+      title: 'The Martian',
+      image: Image.asset('assets/images/The Martian.jpg', height: 500),
+      category: Category.sciencefiction,
+      categoryId: '1',
+      resume:
+          'The Martian by Andy Weir tells the story of astronaut Mark Watney, who is stranded on Mars and must use his engineering and survival skills to stay alive and signal for rescue.',
+      writer: "Andy Weir",
+      totalReads: 2400000,
+      parts: 1,
+      timeToFinish: '9 hours'),
+  Book(
+      bookId: 'SF005',
+      title: 'Snow Crash',
+      image: Image.asset('assets/images/Snow Crash.jpg', height: 500),
+      category: Category.sciencefiction,
+      categoryId: '1',
+      resume:
+          'Snow Crash by Neal Stephenson explores a future dystopian world where corporations control society and a new virtual reality drug, "Snow Crash," threatens to destabilize the world.',
+      writer: "Neal Stephenson",
+      totalReads: 1700000,
+      parts: 3,
+      timeToFinish: '11 hours'),
 
   // Mystery
   Book(
@@ -54,6 +90,43 @@ List<Book> books = [
       writer: "Gillian Flynn",
       totalReads: 2200000,
       parts: 4,
+      timeToFinish: '10 hours'),
+  Book(
+      bookId: 'MYST003',
+      title: 'The Hound of the Baskervilles',
+      image: Image.asset('assets/images/The Hound of the Baskervilles.jpg',
+          height: 500),
+      category: Category.mystery,
+      categoryId: '2',
+      resume:
+          'The Hound of the Baskervilles by Arthur Conan Doyle is a classic Sherlock Holmes mystery involving a cursed family and a terrifying beast roaming the moors.',
+      writer: "Arthur Conan Doyle",
+      totalReads: 1500000,
+      parts: 1,
+      timeToFinish: '6 hours'),
+  Book(
+      bookId: 'MYST004',
+      title: 'The Silent Patient',
+      image: Image.asset('assets/images/The Silent Patient.jpg', height: 500),
+      category: Category.mystery,
+      categoryId: '2',
+      resume:
+          'The Silent Patient by Alex Michaelides follows the unraveling of a shocking mystery when a famous painter is found silent and unresponsive after murdering her husband.',
+      writer: "Alex Michaelides",
+      totalReads: 2100000,
+      parts: 1,
+      timeToFinish: '9 hours'),
+  Book(
+      bookId: 'MYST005',
+      title: 'Big Little Lies',
+      image: Image.asset('assets/images/Big Little Lies.jpg', height: 500),
+      category: Category.mystery,
+      categoryId: '2',
+      resume:
+          'Big Little Lies by Liane Moriarty is a gripping mystery set in a seemingly perfect suburban community, where secrets and lies lead to an unexpected tragedy.',
+      writer: "Liane Moriarty",
+      totalReads: 1800000,
+      parts: 3,
       timeToFinish: '10 hours'),
 
   // Fantasy
@@ -83,6 +156,42 @@ List<Book> books = [
       totalReads: 3200000,
       parts: 6,
       timeToFinish: '9 hours'),
+  Book(
+      bookId: 'FANT003',
+      title: 'A Game of Thrones',
+      image: Image.asset('assets/images/A Game of Thrones.jpg', height: 500),
+      category: Category.fantasy,
+      categoryId: '3',
+      resume:
+          'A Game of Thrones by George R.R. Martin introduces the epic world of Westeros, where noble families vie for control of the Iron Throne in a world filled with political intrigue, magic, and dragons.',
+      writer: "George R.R. Martin",
+      totalReads: 4500000,
+      parts: 7,
+      timeToFinish: '20 hours'),
+  Book(
+      bookId: 'FANT004',
+      title: 'The Name of the Wind',
+      image: Image.asset('assets/images/The Name of the Wind.jpg', height: 500),
+      category: Category.fantasy,
+      categoryId: '3',
+      resume:
+          'The Name of the Wind by Patrick Rothfuss follows the story of Kvothe, a gifted musician and magician, as he narrates his journey from a young boy to a legendary figure.',
+      writer: "Patrick Rothfuss",
+      totalReads: 1700000,
+      parts: 2,
+      timeToFinish: '12 hours'),
+  Book(
+      bookId: 'FANT005',
+      title: 'The Way of Kings',
+      image: Image.asset('assets/images/The Way of Kings.jpg', height: 500),
+      category: Category.fantasy,
+      categoryId: '3',
+      resume:
+          'The Way of Kings by Brandon Sanderson is the first book in The Stormlight Archive, an epic fantasy series about war, honor, and the mysteries of a dying world.',
+      writer: "Brandon Sanderson",
+      totalReads: 2300000,
+      parts: 10,
+      timeToFinish: '30 hours'),
 
   // Non-fiction
   Book(
@@ -111,6 +220,42 @@ List<Book> books = [
       totalReads: 3500000,
       parts: 10,
       timeToFinish: '13 hours'),
+  Book(
+      bookId: 'NF003',
+      title: 'Atomic Habits',
+      image: Image.asset('assets/images/Atomic Habits.jpg', height: 500),
+      category: Category.nonfiction,
+      categoryId: '4',
+      resume:
+          'Atomic Habits by James Clear provides actionable strategies for building good habits, breaking bad ones, and mastering the tiny behaviors that lead to remarkable results.',
+      writer: "James Clear",
+      totalReads: 3000000,
+      parts: 4,
+      timeToFinish: '7 hours'),
+  Book(
+      bookId: 'NF004',
+      title: 'The Power of Habit',
+      image: Image.asset('assets/images/The Power of Habit.jpg', height: 500),
+      category: Category.nonfiction,
+      categoryId: '4',
+      resume:
+          'The Power of Habit by Charles Duhigg delves into the science of habits and how understanding them can lead to personal and professional success.',
+      writer: "Charles Duhigg",
+      totalReads: 2800000,
+      parts: 3,
+      timeToFinish: '10 hours'),
+  Book(
+      bookId: 'NF005',
+      title: 'Think Again',
+      image: Image.asset('assets/images/Think Again.jpg', height: 500),
+      category: Category.nonfiction,
+      categoryId: '4',
+      resume:
+          'Think Again by Adam Grant encourages readers to question their assumptions, embrace new ways of thinking, and foster innovation and growth.',
+      writer: "Adam Grant",
+      totalReads: 2700000,
+      parts: 5,
+      timeToFinish: '8 hours'),
 
   // Biography
   Book(
@@ -138,4 +283,40 @@ List<Book> books = [
       totalReads: 5500000,
       parts: 5,
       timeToFinish: '11 hours'),
+  Book(
+      bookId: 'BIO003',
+      title: 'Becoming',
+      image: Image.asset('assets/images/Becoming.jpg', height: 500),
+      category: Category.biography,
+      categoryId: '5',
+      resume:
+          'Becoming by Michelle Obama is a deeply personal memoir about the former First Lady\'s life, from her childhood in Chicago to her role in the White House.',
+      writer: "Michelle Obama",
+      totalReads: 4700000,
+      parts: 8,
+      timeToFinish: '15 hours'),
+  Book(
+      bookId: 'BIO004',
+      title: 'The Wright Brothers',
+      image: Image.asset('assets/images/The Wright Brothers.jpg', height: 500),
+      category: Category.biography,
+      categoryId: '5',
+      resume:
+          'The Wright Brothers by David McCullough tells the inspiring story of Wilbur and Orville Wright and their invention of the airplane, transforming modern transportation.',
+      writer: "David McCullough",
+      totalReads: 3200000,
+      parts: 5,
+      timeToFinish: '9 hours'),
+  Book(
+      bookId: 'BIO005',
+      title: 'Long Walk to Freedom',
+      image: Image.asset('assets/images/Long Walk to Freedom.jpg', height: 500),
+      category: Category.biography,
+      categoryId: '5',
+      resume:
+          'Long Walk to Freedom by Nelson Mandela is the autobiography of the anti-apartheid revolutionary and former South African President, chronicling his life and struggle for justice.',
+      writer: "Nelson Mandela",
+      totalReads: 5100000,
+      parts: 9,
+      timeToFinish: '18 hours'),
 ];
